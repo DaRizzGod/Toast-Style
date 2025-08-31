@@ -1,0 +1,14 @@
+{
+  "name": "ordering-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "build": "node esbuild.js" },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.661.0",
+    "@aws-sdk/lib-dynamodb": "^3.661.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.661.0",
+    "stripe": "^16.0.0",
+    "undici": "^6.19.8"
+  },
+  "devDependencies": { "esbuild": "^0.23.0", "typescript": "^5.5.4" }
+}
